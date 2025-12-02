@@ -85,14 +85,6 @@ if __name__ == "__main__":
         #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t2.xlsx",
         #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t3.xlsx",
         #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t4.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t5.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t6.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t7.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t8.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t9.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t10.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t11.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t12.xlsx",
     ]
 
     output_folder = "/home/viviane/Documents/Spider/test/test/output"
