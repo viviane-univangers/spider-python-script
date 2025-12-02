@@ -20,7 +20,7 @@ class SpiderAssigner:
         self.history = {}
         self.next_id = 1
 
-    def _new_id(self):
+    def _new_id(self):     # à modifier exemple spider_id = f"XU{self.next_id:09d}" pour avoir des id_spider XU000000001
         spider_id = f"MI{self.next_id:09d}"
         self.next_id += 1
         return spider_id
@@ -79,15 +79,15 @@ def process_files(input_files, output_folder):
 if __name__ == "__main__":
     # Liste des fichiers Excel à traiter dans l’ordre chronologique
     input_files = [
-        "/home/viviane/Bureau/article/spider/central.xlsx"
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t0.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t1.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t2.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t3.xlsx",
-        #"/home/viviane/Documents/Spider/test/test/patients_All_An_Ni_t4.xlsx",
+        "/chemin/du/fichier/input/central.xlsx"         # mettre le bon chemin
+        #"/chemin/du/fichier/input/patients_All_An_Ni_t0.xlsx",
+        #"/chemin/du/fichier/input/patients_All_An_Ni_t1.xlsx",
+        #"/chemin/du/fichier/input/patients_All_An_Ni_t2.xlsx",
+        #"/chemin/du/fichier/input/patients_All_An_Ni_t3.xlsx",
+        #"/chemin/du/fichier/input/patients_All_An_Ni_t4.xlsx",
     ]
 
-    output_folder = "/home/viviane/Documents/Spider/test/test/output"
+    output_folder = "/chemin/du/fichier/output"        # mettre le bon chemin
     process_files(input_files, output_folder)
 
 
