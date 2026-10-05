@@ -79,12 +79,12 @@ def process_files(input_files, output_folder):
 if __name__ == "__main__":
     # Liste des fichiers Excel à traiter dans l’ordre chronologique
     input_files = [
-        "/chemin/du/fichier/input/central.xlsx"         # mettre le bon chemin
-        #"/chemin/du/fichier/input/patients_All_An_Ni_t0.xlsx",
-        #"/chemin/du/fichier/input/patients_All_An_Ni_t1.xlsx",
-        #"/chemin/du/fichier/input/patients_All_An_Ni_t2.xlsx",
-        #"/chemin/du/fichier/input/patients_All_An_Ni_t3.xlsx",
-        #"/chemin/du/fichier/input/patients_All_An_Ni_t4.xlsx",
+        "/chemin/du/fichier/input/central_t0.xlsx"         # mettre le bon chemin
+        #"/chemin/du/fichier/input/central_t1.xlsx",
+        #"/chemin/du/fichier/input/central_t2.xlsx",
+        #"/chemin/du/fichier/input/central_t3.xlsx",
+        #"/chemin/du/fichier/input/central_t4.xlsx",
+        #"/chemin/du/fichier/input/central_t5.xlsx",
     ]
 
     output_folder = "/chemin/du/fichier/output"        # mettre le bon chemin
